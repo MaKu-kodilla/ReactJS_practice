@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    width:40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+}
+ul.contactList {
+    padding: 0;
+}
+form.contactForm {
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+input {
+    border: none;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 15px;
+    font-size: 20px;
+}
+
+input:nth-child(2) {
+    margin-left: 20px;
+    width: 40%;
+}
+input:nth-child(3) {
+    width: 60%;
+}
+button {
+    background-color: #73A7FC;
+    width: 180px;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 50px;
+    margin-left: 15px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+img.contactImage {
+    height: 50px;
+    margin: 0;
+    float: left;
+    margin-top: 19px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+div.contact {
+    width: 50%;
+}
+div.contactItem {
+    padding: 20px;
+    background-color: #E8EAF6;
+    margin: 10px auto;
+    text-align: left;
+}
+a.contactEmail {
+    border: none;
+    text-decoration: none;
+    color: #828389;
+}
