@@ -1,0 +1,15 @@
+.counter span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.counter button {
+    margin: 10px;
+}
+
+.counters {
+    text-align: center;
+}
+.counters h2 {
+    color: red;
+}
